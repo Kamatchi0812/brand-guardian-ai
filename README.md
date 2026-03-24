@@ -4,12 +4,6 @@ An AI-powered system that monitors and analyzes brand-related content in real ti
 
 ---
 
-## 👩‍💻 Author
-
-## Kamatchi S
-Aspiring Data Scientist | AI Enthusiast
-
----
 
 # 🔥 Key Features
 
@@ -51,9 +45,9 @@ streamlit run frontend/streamlit_app.py
 
 ---
 
+## 👩‍💻 Author
 
+# Kamatchi S
+Aspiring Data Scientist | AI Enthusiast
 
-
-pip install -r requirements.txt
-uvicorn backend.app.main:app --reload
-streamlit run frontend/streamlit_app.py
+---
