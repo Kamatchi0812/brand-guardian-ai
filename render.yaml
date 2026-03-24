@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: brand-guardian-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-1.5-flash
+      - key: CHROMA_COLLECTION_NAME
+        value: brand-guardian-memory
+      - key: CHROMA_PERSIST_DIRECTORY
+        value: ./chroma_db
+      - key: ENABLE_FAKE_MODE
+        value: false
