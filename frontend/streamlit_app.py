@@ -5,7 +5,7 @@ import os
 import requests
 import streamlit as st
 
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+API_BASE_URL = os.getenv("API_BASE_URL", "API_URL = https://brand-guardian-ai-ikct.onrender.com/api/v1/analyze")
 
 st.set_page_config(
     page_title="Brand Guardian",
