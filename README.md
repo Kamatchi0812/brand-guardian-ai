@@ -4,14 +4,14 @@ An AI-powered system that monitors and analyzes brand-related content in real ti
 
 ---
 
-#👩‍💻 Author
+## 👩‍💻 Author
 
-# Kamatchi S
+## Kamatchi S
 Aspiring Data Scientist | AI Enthusiast
 
 ---
 
-## 🔥 Key Features
+# 🔥 Key Features
 
 - 🧠 Multimodal Analysis (Text + Image)  
 - ⚡ Real-Time Threat Detection  
