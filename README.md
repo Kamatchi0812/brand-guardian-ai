@@ -23,15 +23,6 @@ An AI-powered system that monitors and analyzes brand-related content in real ti
 - **Database:** ChromaDB  
 - **Language:** Python  
 
----
-
-## ▶️ Run Locally
-
-```bash
-pip install -r requirements.txt
-uvicorn backend.app.main:app --reload
-streamlit run frontend/streamlit_app.py
-```
 ## 🔌 API
 - POST /api/v1/analyze → Analyze content
 - GET /health → Health check
